@@ -1,6 +1,7 @@
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress/cli'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress/cli';
+import { viteBundler } from '@vuepress/bundler-vite';
+import { editablePlugin } from '@editpress/vuepress-plugin-editable';
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -15,4 +16,9 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
-})
+  plugins: [
+    editablePlugin({
+      canReview: true,
+    }),
+  ],
+});
