@@ -10,7 +10,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
     repo: 'editpress-org/editpress',
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/get-started', '/guide/test'],
   }),
 
   bundler: viteBundler(),

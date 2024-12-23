@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:dev": "vuepress dev docs -p 8083",
+    "docs:dev": "vuepress dev docs -p 8083 --clean-cache",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache"
   },
