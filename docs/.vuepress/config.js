@@ -5,13 +5,11 @@ import { editablePlugin } from '@editpress/vuepress-plugin-editable';
 
 export default defineUserConfig({
   lang: 'en-US',
-
   title: 'VuePress',
   description: 'My first VuePress Site',
-
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
+    repo: 'editpress-org/editpress',
     navbar: ['/', '/get-started'],
   }),
 
