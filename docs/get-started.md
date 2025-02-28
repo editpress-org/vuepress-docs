@@ -1,7 +1,7 @@
 ---
 layout: EditpressLayout
 ---
-# Get Started
+# Get Started - vuepress-docs
 
 This is a normal page, which contains VuePress basics.
 
