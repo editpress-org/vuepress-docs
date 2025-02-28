@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: 'My first VuePress Site',
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    repo: 'editpress-org/editpress',
+    repo: 'editpress-org/vuepress-docs',
     navbar: ['/', '/get-started', '/guide/test'],
   }),
   bundler: viteBundler(),
